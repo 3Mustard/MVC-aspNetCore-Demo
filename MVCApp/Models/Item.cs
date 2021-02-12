@@ -10,5 +10,6 @@ namespace MVCApp.Models
     {
         [Key]
         public int Id { get; set; }
+        public string Borrower { get; set; }
     }
 }
